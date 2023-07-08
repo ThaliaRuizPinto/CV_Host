@@ -20,16 +20,16 @@
   }
 }
 @media (max-width: 767px) {
-  .FotoThali {
-    max-width: 150px;
-    margin-top: 20px;
-    margin-right: auto;
-    margin-left: auto;
+  .Presentacion {
+    flex-direction: column;
   }
 
   .Texto1 {
-    text-align: center;
-    margin: 10px;
+    order: 2;
+  }
+
+  .FotoThali {
+    order: 1;
   }
 }
 
